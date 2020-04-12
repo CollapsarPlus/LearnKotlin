@@ -1,0 +1,13 @@
+/*
+ * 项目名：LearnKotlin
+ * 作者：ipluto
+ * 类名：settings.gradle
+ * 模块名：LearnKotlin
+ * 当前修改时间：2020年04月12日 17:45:23
+ * 上次修改时间：2020年04月12日 17:44:49
+ * Copyright (c) 2020 - 2020 All Rights Reserved.
+ *
+ */
+
+rootProject.name='LearnKotlin'
+include ':app'
