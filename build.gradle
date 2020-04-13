@@ -3,8 +3,8 @@
  * 作者：ipluto
  * 类名：build.gradle
  * 模块名：LearnKotlin
- * 当前修改时间：2020年04月12日 17:45:23
- * 上次修改时间：2020年04月12日 17:44:49
+ * 当前修改时间：2020年04月13日 23:25:39
+ * 上次修改时间：2020年04月12日 18:20:32
  * Copyright (c) 2020 - 2020 All Rights Reserved.
  *
  */
@@ -14,8 +14,9 @@
 buildscript {
     ext.kotlin_version = '1.3.61'
     repositories {
+        google()
         maven { url 'https://maven.aliyun.com/repository/google' }
-        maven{ url 'https://maven.aliyun.com/repository/jcenter'}
+        maven { url 'https://maven.aliyun.com/repository/jcenter'}
         
     }
     dependencies {
@@ -29,8 +30,9 @@ buildscript {
 
 allprojects {
     repositories {
+        google()
         maven { url 'https://maven.aliyun.com/repository/google' }
-        maven{ url 'https://maven.aliyun.com/repository/jcenter'}
+        maven { url 'https://maven.aliyun.com/repository/jcenter'}
         
     }
 }

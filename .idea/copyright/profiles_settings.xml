@@ -1,0 +1,11 @@
+<component name="CopyrightManager">
+  <settings default="ipluto">
+    <module2copyright>
+      <element module="All" copyright="ipluto" />
+    </module2copyright>
+    <LanguageOptions name="Groovy" />
+    <LanguageOptions name="XML">
+      <option name="prefixLines" value="false" />
+    </LanguageOptions>
+  </settings>
+</component>
