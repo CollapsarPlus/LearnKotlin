@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<?xml version="1.0" encoding="utf-8"?>
+<!--
   ~ 项目名：LearnKotlin
   ~ 作者：ipluto
   ~ 类名：AndroidManifest.xml
   ~ 模块名：app
-  ~ 当前修改时间：2020年04月12日 17:45:23
-  ~ 上次修改时间：2020年04月12日 17:45:16
+  ~ 当前修改时间：2020年07月05日 17:39:23
+  ~ 上次修改时间：2020年07月05日 16:53:32
   ~ Copyright (c) 2020 - 2020 All Rights Reserved.
   ~
   -->
@@ -19,6 +20,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SecondActivity">
+            <intent-filter>
+                <action android:name="com.wit.learnkotlin.ACTION_START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

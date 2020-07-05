@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ 项目名：LearnKotlin
+  ~ 作者：ipluto
+  ~ 类名：main.xml
+  ~ 模块名：app
+  ~ 当前修改时间：2020年07月05日 17:39:23
+  ~ 上次修改时间：2020年07月05日 16:09:25
+  ~ Copyright (c) 2020 - 2020 All Rights Reserved.
+  ~
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_item"
+        android:title="Add" />
+    <item
+        android:id="@+id/remove_item"
+        android:title="remove" />
+</menu>
