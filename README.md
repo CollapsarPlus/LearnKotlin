@@ -7,7 +7,7 @@ Initialize the environment
 
 java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
 这么改build
-
+```xml
 if (project.hasProperty('kapt')) {
   kapt 'javax.xml.bind:jaxb-api:2.3.1'
   kapt 'com.sun.xml.bind:jaxb-core:2.3.0.1'
@@ -17,11 +17,12 @@ if (project.hasProperty('kapt')) {
 annotationProcessor 'javax.xml.bind:jaxb-api:2.3.1'
 annotationProcessor 'com.sun.xml.bind:jaxb-core:2.3.0.1'
 annotationProcessor 'com.sun.xml.bind:jaxb-impl:2.3.2'
+```
 有jacoco问题的。
 
 java.lang.ClassNotFoundException: jdk.internal.reflect.GeneratedSerializationConstructorAccessor1
 这么改
-
+```xml
 testOptions {
   unitTests {
     all {
@@ -30,6 +31,7 @@ testOptions {
       }
    }
 }
+```
 
 https://zhuanlan.zhihu.com/p/351164056
 
